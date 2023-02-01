@@ -1,0 +1,64 @@
+Server Creation - Nodjs + Express
+
+Basic Commands
+--------------
+1) Creating package.json - npm init
+2) Creating node modules - npm i express (Install Express)
+3) Install nodemon - npm install -g nodemon
+4) Run - nodmon index.js
+5) npm i mongoose
+
+Basic Steps
+----------
+
+) Creating a folder (BankServer)
+2) Create package.json file
+3) Install Express
+4) Creating index page
+5) import exprss inside index.js file
+6) Create an app using ecxpress
+7) Setup the port number
+8) Resolving http request
+
+9) HTTP Response code
+    1xx - information
+    2xx - Successful
+    3xx - Redirection
+    4xx - Client Error
+    5xx - Server Error
+
+10) JWT Token
+    To install token - npm i jsonwebtoken
+    To generate token - sign()
+
+11) Middleware
+    it comes in the middle of the request and the response cycle of the nodejs execution
+
+    req,res,next
+
+    1. Application Specific Midleware - for entire application
+    2. Router Specific Midleware - for token verification -verify()
+
+12) Database integration
+
+    1. Install mongoose - npm i mongoose 
+
+13) Asynchronous function resolving - promise
+
+    1. Resolving state - .then()
+    2. reject state - .catch()
+
+14) CORS - Cross Origin Resource Sharing
+
+    install cros - npm i cors
+
+    port 4200(Angular) -----(request)------port 3000(node) (req-received)
+
+15) Asynchronous call -RxJs -(Reactive Extension for javascript)
+
+    js - promise
+    ts - RxJs(library)
+
+        1. Observable
+            a) resolved - Subscribe()
+            b) reject - catch()
